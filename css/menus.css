@@ -1,0 +1,190 @@
+#main_menu a, #footer_nav a {
+	font-family: Montserrat, Oswald, "Arial Narrow", Helvetica, sans-serif !important; 
+	font-size: 	14px;
+    font-weight: 400;
+	text-transform: uppercase;
+	padding-bottom:8px;
+}
+
+
+.menu-main-menu-container li.current_page_item a {
+	background: url(../images/hover_arrow_up.png) center bottom no-repeat transparent;
+}
+
+.link_slogan a {
+	background-image: none!important;
+}
+
+.link_slogan a:hover {
+	border:0!important;
+}
+
+.menu-main-menu-container, .menu-main-menu-container ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+.menu-main-menu-container {
+	z-index: 99;
+	margin: -52px 0 0 295px;
+	float:left;
+}
+
+.menu-main-menu-container a, .menu-footer-menu-container a {
+    color: black;
+	text-decoration: none;
+	padding: 10px 0 0 0;
+	margin-left: 18px;
+	margin-right: 18px;
+	text-shadow: none;
+	height: 30px;
+	letter-spacing: 1px;
+}
+
+.menu-main-menu-container a:hover {
+	border-bottom: 2px solid #7E7E7E;
+
+}
+
+.menu-main-menu-container li.current_page_item a:hover {
+	border:0;
+}
+
+/*.menu-main-menu-container a:hover {
+	border-bottom: 1px solid white;
+}*/
+
+.menu-main-menu-container li, .menu-footer-menu-container li{
+	text-align:right;
+
+}
+
+.menu-main-menu-container li ul {
+	position: absolute;
+	left: -999em;
+	margin: 17px 0 0 0;
+	z-index: 1000;
+}
+
+.menu-main-menu-container li ul li, .menu-footer-menu-container li ul li {
+	border: 0;
+}
+
+.menu-main-menu-container li ul li a, .menu-footer-menu-container li ul li a {
+	padding: 10px;
+	margin-left: 9px;
+	border: 0;
+	font-size: 12px!important;
+	text-transform: none!important;
+	color: #7e7e7e;
+}
+
+.menu-main-menu-container li ul li a:hover {
+	border: 0;
+	/*padding-left: 10px;*/
+	}
+
+.menu-main-menu-container li:hover ul {
+	left: auto;
+}
+
+.menu-main-menu-container li:hover ul, .menu-main-menu-container li.sfhover ul {
+	left: auto;
+}
+
+
+
+
+/******************************
+			FOOTER
+*******************************/
+
+.menu-footer-menu-container {
+	float: left;
+	margin: 26px 40px 0;
+}
+
+.menu-footer-menu-container a {
+	color: white;
+	margin-right: 20px;
+}
+
+.menu-footer-menu-container ul li, .menu-main-menu-container ul li{
+	display: inline;
+}
+
+.menu-footer-menu-container li ul {
+	position: absolute;
+	left: -999em;
+	margin: -20px 0 0 250px;
+	z-index: 1000;
+}
+
+.menu-footer-menu-container li:hover ul, .menu-footer-menu-container li.sfhover ul {
+	left: auto;
+}
+
+.menu-footer-menu-container a:hover {
+	border-bottom: 2px solid white;
+
+}
+
+
+/******************************
+			SIDEBAR NAV
+*******************************/
+
+#nav_sidebar, #nav_sidebar_charities {
+	float:left;
+	margin-left: 40px;
+	width: 265px;
+	padding-bottom: 90px; 
+}
+
+#nav_sidebar_charities {
+	width: 285px;
+	margin-right: -20px;
+}
+
+#nav_sidebar a {
+	color: white;
+	font-family: 'Open Sans Condensed', 'Arial Narrow', Helvetcia, sans-serif;
+	font-size: 	25px;
+    font-weight: 300;
+    text-decoration: none;
+	text-transform: uppercase;
+	padding-left: 15px;
+}
+
+
+#nav_sidebar_charities li.charity_nav {
+	float: left;
+	margin: 0 20px 20px 0;
+}
+
+#nav_sidebar li.current_page_item a {
+	background: url(../images/hover_arrow.png) left center no-repeat transparent;
+
+}
+
+#nav_sidebar a:hover {
+	color: #7E7E7E;
+}
+
+.menu-capabilities-menu-container ul li, 
+.menu-approach-menu-container ul li, 
+.menu-hubspot-menu-container ul li, 
+.menu-portfolio-menu-container ul li
+ {
+	margin-bottom: 20px;
+	line-height: 22px;
+	text-align: right;
+}
+
+.menu-main-menu-container li ul {
+	position: absolute;
+	left: -999em;
+	margin: 17px 0 0 0;
+	z-index: 1000;
+}

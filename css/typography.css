@@ -1,0 +1,202 @@
+/*
+font-family: 'Oswald', sans-serif;
+font-family: 'Open Sans Condensed', sans-serif;
+font-family: 'Open Sans', sans-serif;
+Oswald:400,300,700|
+Open+Sans+Condensed:300,300italic|
+Open+Sans:400italic,300italic,400,700,300|
+Montserrat:400,700
+
+
+*/
+
+
+/******************************
+			CONTENT
+*******************************/
+
+h2, h3 {
+	font-family: Oswald, Arial, Helvetica, sans-serif;
+	font-size: 2.813em;
+	font-weight: 400;
+	text-transform: uppercase;
+	color:white;
+	letter-spacing:.044em;
+	line-height: 40px;
+	margin-bottom: 50px;
+}
+
+.subheading{
+	font-size: .650em;
+	font-weight: 300;
+}
+
+#content p, #content ul {
+	color: white;
+	font-size: 1.563em;
+	font-family: Oswald, 'Open Sans', Arial, Helvetica, sans-serif;
+	line-height: 1.6em;
+	font-weight: 300;
+	letter-spacing: .05em;
+}
+
+
+#content ul {
+	padding-left: 40px;
+	margin: 20px 0;
+}
+
+#content li {
+	list-style: disc outside none;
+	margin-bottom: 15px;
+	line-height: 1.3em;
+}
+
+/******************************
+			FOOTER
+*******************************/
+
+.copyright {
+	float:right;
+	font-size: 0.750em;
+	font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+	margin-top: 25px;
+	color: white;
+	margin-right: 40px;
+}
+
+
+/******************************
+		SINGLE-CLIENTS
+*******************************/
+
+#client_bio h2 {
+	font-size: 33px;
+	margin-bottom: -5px;
+}
+
+h3 a, h3{
+	font-size: 22px;
+	font-weight: 300;
+	color: #747474;
+	margin-bottom: 20px;
+	text-decoration: none;
+}
+
+h3 a:hover {
+	color: #c2c2c2;
+}
+
+#client_bio p {
+	color: white;
+	font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+	font-weight:300;
+	font-size: 14px;
+	line-height: 22px;
+	margin-bottom: 20px;
+}
+
+#cboxTitle {
+	display: none!important;
+}
+
+/******************************
+		BLOG (FETCH)
+*******************************/
+
+#blog_content h2 {
+	font-size: 25px;
+	color: #e21d38;
+	line-height: 30px;
+	margin-bottom: 5px;
+}
+
+#blog_wrapper a, #contact_content a, #content a{
+	color: #fe8300;
+	text-decoration:none;
+}
+
+.entry-date, .entry-excerpt, .entry-content {
+	margin-left: 20px;
+	font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+	font-weight:400;
+	font-size: 12px;
+	color: #231f21;
+	margin-bottom: 10px;
+}
+
+.entry-content p {
+	margin-bottom: 10px;
+}
+
+.entry-date {
+	font-style: italic;
+}
+
+.excerpt_more {
+	margin-top: 10px;
+	text-transform: uppercase;
+	font-family: Oswald, Arial, Helvetica, sans-serif;
+	letter-spacing: .044em;
+}
+
+#blog_sidebar h3 {
+	font-size: 14px;
+	color: #231f21;
+	letter-spacing: .044em;
+	margin-bottom: 10px;
+	line-height: inherit;
+}
+
+.sidebar-entry-date {
+	color: white;
+	font-family: Oswald, Arial, Helvetica, sans-serif;
+	text-transform: uppercase;
+	font-size: 10px;
+	text-align: center;
+	line-height: 13px;
+	padding: 3px;
+	letter-spacing: .05em;
+}
+
+.sidebar_day {
+	font-size: 14px;
+}
+
+#blog_sidebar h4, .featured-title a {
+	font-size: 10px;
+	font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+}
+
+.featured-title li {
+	line-height: 13px;
+	margin-bottom: 5px;
+}
+
+.wp-pagenavi .pages, .wp-pagenavi .current, .wp-pagenavi .page {
+	font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	margin-right: 10px;
+}
+
+.wp-pagenavi .current {
+
+}
+
+/******************************
+		CONTACT
+*******************************/
+
+#contact_content p, #contact_content a, .contact_map a {
+	font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+	letter-spacing: .044em;
+	font-size: 18px;
+	font-weight: 400;
+	margin-bottom: 20px;
+}
+
+.contact_map a {
+	margin-left: 12px;
+	font-size: 12px!important;
+	letter-spacing: normal!important;
+}

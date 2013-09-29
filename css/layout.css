@@ -1,0 +1,207 @@
+body {
+	background-color: #000;
+}
+
+.wrap {
+	position:relative;
+	width: 960px;
+}
+
+.alignleft {
+	float:left;
+	margin-right: 20px;
+}
+
+.alignright {
+	float:right;
+	margin-left: 20px;
+}
+
+.clearboth {
+	clear:both;
+}
+
+/******************************
+			HEADER
+*******************************/
+
+header {
+	height: 124px;
+	margin-top: 35px;
+	background: url(../images/header_bg.png) left center repeat-x;
+	margin-bottom: 50px;
+}
+
+#headerbanner {
+	padding: 0 21px 0 40px;
+	position:relative;
+	}
+
+#headerlogo {
+	width: 279px;
+	height: 94px;
+	background: url(../images/logo.png) top left no-repeat;
+	font-size: 0px;
+	line-height: 0px;
+	text-indent: -9999px;
+	display: inline-block;
+	margin-top: 18px;
+}
+
+
+/******************************
+			FOOTER
+*******************************/
+
+footer {
+	width: 100%;
+	position: fixed;
+	height: 67px;
+	bottom: 0;
+	background-color: rgba(0, 0, 0, .70);
+	-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#B2000000,endColorstr=#B2000000)"; /* IE8 */
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#B2000000,endColorstr=#B2000000);   /* IE6 & 7 */
+      zoom: 1;
+}
+
+
+/******************************
+			HOME
+*******************************/
+.home_slogan {
+	position: absolute;
+	bottom: 120px;
+	
+}
+#home_content {
+	padding-left: 40px;
+}
+
+/******************************
+			SUBPAGE
+*******************************/
+
+#content {
+	margin-left: 50px;
+	float:left;
+	width: 612px;
+	padding-bottom: 90px; 
+	border:0;
+}
+
+/******************************
+		SINGLE-CLIENTS
+*******************************/
+
+#client_lightbox {
+	width:720px;
+	height: 520px;
+	max-height: 520px;
+	padding: 40px;
+	background-color: black;
+}
+
+#client_bio {
+	width: 320px;
+	padding-left:40px;
+	float:right;
+	border-left: 1px solid white;
+
+}
+
+#client_artwork {
+	width: 320px;
+	padding-right:40px;
+}
+
+.attachment-post-thumbnail {
+	margin-bottom: 15px;
+	border: 1px solid black;
+}
+
+.client_logo {
+	margin-right: 14px;
+}
+
+/******************************
+		BLOG (FETCH)
+*******************************/
+
+#blog_wrapper {
+	width: 700px;
+	background-color: rgba(255, 255, 255, .90);
+	margin-left: 40px;
+	padding:40px;
+	margin-bottom: 90px;
+	min-height: 460px;
+}
+
+#blog_content {
+	width: 400px;
+}
+
+.post-excerpt {
+	border-bottom: 1px solid #a2a1a1;
+	padding-bottom: 35px;
+	margin-bottom: 35px;
+}
+
+.entry-content {
+	border: 0;
+	margin-left: 0;
+}
+
+
+#blog_sidebar {
+	width: 200px;
+	float:right;
+	background-color: white;
+	padding: 15px 20px 15px;
+	-webkit-box-shadow:  5px 5px 15px 2px rgba(0, 0, 0, .25);
+    box-shadow:  5px 5px 15px 2px rgba(0, 0, 0, .25);
+}
+
+.sidebar-excerpt {
+	padding-bottom: 10px;
+	height: 30px;
+}
+
+.sidebar-entry-date {
+	width: 35px;
+	background-color: black;
+	float:left;
+	margin-right: 10px;
+}
+
+.blog_sidebar_widget {
+	border: 1px solid white;
+	margin-bottom: 10px;
+}
+
+.social {
+	margin-right: 4px;
+}
+
+.addtoany_list {
+	float:right;
+	margin-top: -5px;
+}
+
+/******************************
+		Contact
+*******************************/
+
+#contact_content {
+	width: 430px;
+	background-color: rgba(255, 255, 255, .80);
+	margin-left: 40px;
+	padding:40px;
+	margin-bottom: 90px;
+}
+
+.contact_map {
+	background-color: white;
+	padding: 20px 10px 10px;
+	-webkit-box-shadow:  5px 5px 15px 2px rgba(0, 0, 0, .25);
+    box-shadow:  5px 5px 15px 2px rgba(0, 0, 0, .25);
+}
